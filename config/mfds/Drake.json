@@ -1,0 +1,1058 @@
+{
+ "name": "Drake",
+ "buttons": [
+  {
+   "img": "Drake_Cutlass/DRK_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Drake_Cutlass/DRK_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Aegis"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Greycat"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.23,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.23,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f5"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.32,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f6"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_ENG_OFF.png",
+   "x": 0.32,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.32,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f6"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.41,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_SHD_OFF.png",
+   "x": 0.41,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_SHD_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ],
+   "toggle": "f7"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.41,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f7"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.5,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f8"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_QTM_OFF.png",
+   "x": 0.5,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.5,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f8"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.59,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_LIFE_OFF.png",
+   "x": 0.59,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_LIFE_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ],
+   "toggle": "shiftleft"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.59,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.68,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f9"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.68,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f9"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_UP.png",
+   "x": 0.77,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PWR_COOL_OFF.png",
+   "x": 0.77,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PWR_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DN.png",
+   "x": 0.77,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Drake_Cutlass/DRK_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f10"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.23,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f7",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.32,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f8",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.41,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f9",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.5,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f10",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.59,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f11",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.68,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f12",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PRESET_DEFAULT.png",
+   "x": 0.77,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f13"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_ENG_OFF.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_SHLD_OFF.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_SHLD_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "o"
+    }
+   ],
+   "toggle": "o"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_THR_OFF.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_THR_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "500"
+    },
+    {
+     "type": "up",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_VTOL_OFF.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_VTOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "k"
+    }
+   ],
+   "toggle": "k"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_ATC_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_ATC_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_GMBL_ON.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_GEAR_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_GEAR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ],
+   "toggle": "n"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_LAMP_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_LAMP_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "l",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+l"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_SEAT_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_COOL_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_QTM_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_RADR_OFF.png",
+   "x": 0.77,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_PING_OFF.png",
+   "x": 0.86,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_PING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "tab"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_TRGT_YLW.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_TRGT_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_SUB_YLW.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_SUB_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DECOY_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_DECOY_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "h"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_NOISE_YLW.png",
+   "x": 0.5,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_NOISE_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "j"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_EJECT_RED.png",
+   "x": 0.77,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_EJECT_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "y",
+     "modifier": "altleft"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Drake_Cutlass/DRK_SALVAGE_YLW.png",
+   "x": 0.59,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_SALVAGE_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "s",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_DOORS_YLW.png",
+   "x": 0.68,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_DOORS_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "d",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_TRGT_CLR_YLW.png",
+   "x": 0.23,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_TRGT_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_SUB_CLR_YLW.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_SUB_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_RAMP_YLW.png",
+   "x": 0.41,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_RAMP_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_TRCT_YLW.png",
+   "x": 0.5,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_TRCT_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_LAZER_RED.png",
+   "x": 0.59,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_LAZER_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "m"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_FRACTURE_RED.png",
+   "x": 0.68,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_FRACTURE_YLW.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "w"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Drake_Cutlass/DRK_JETT_RED.png",
+   "x": 0.77,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Drake_Cutlass/DRK_JETT_YLW.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "j"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Sliders/slider_weapon.png",
+   "x": 0.5,
+   "y": 0.82,
+   "w": 0.55,
+   "h": 0.04,
+   "axis": "x"
+  }
+ ]
+}

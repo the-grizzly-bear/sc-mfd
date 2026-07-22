@@ -1,0 +1,926 @@
+{
+ "name": "Shubin",
+ "buttons": [
+  {
+   "img": "Shubin/SHB_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Shubin/SHB_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Kruger"
+  },
+  {
+   "img": "Shubin/SHB_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "FPS"
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.23,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.23,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f5"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.32,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f6"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_ENG_OFF.png",
+   "x": 0.32,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.32,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f6"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.41,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_SHD_OFF.png",
+   "x": 0.41,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_SHD_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ],
+   "toggle": "f7"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.41,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f7"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.5,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f8"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_QTM_OFF.png",
+   "x": 0.5,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.5,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f8"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.59,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_LIFE_OFF.png",
+   "x": 0.59,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_LIFE_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ],
+   "toggle": "shiftleft"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.59,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.68,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f9"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.68,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f9"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_UP.png",
+   "x": 0.77,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PWR_COOL_OFF.png",
+   "x": 0.77,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PWR_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Shubin/SHB_DN.png",
+   "x": 0.77,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Shubin/SHB_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f10"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.23,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f7",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.32,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f8",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.41,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f9",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.5,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f10",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.59,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f11",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.68,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f12",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_PRESET_DEFAULT.png",
+   "x": 0.77,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f13",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_ENG_OFF.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Shubin/SHB_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Shubin/SHB_SHLD_OFF.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_SHLD_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "o"
+    }
+   ],
+   "toggle": "o"
+  },
+  {
+   "img": "Shubin/SHB_THR_OFF.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_THR_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "500"
+    },
+    {
+     "type": "up",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_VTOL_OFF.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_VTOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "k"
+    }
+   ],
+   "toggle": "k"
+  },
+  {
+   "img": "Shubin/SHB_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Shubin/SHB_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Shubin/SHB_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Shubin/SHB_ATC_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_ATC_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_GMBL_ON.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_GEAR_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_GEAR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ],
+   "toggle": "n"
+  },
+  {
+   "img": "Shubin/SHB_LAMP_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_LAMP_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "l",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+l"
+  },
+  {
+   "img": "Shubin/SHB_SEAT_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Shubin/SHB_COOL_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Shubin/SHB_QTM_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Shubin/SHB_RADR_OFF.png",
+   "x": 0.77,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Shubin/SHB_PING_OFF.png",
+   "x": 0.86,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_PING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "tab"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_TRGT_YLW.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_TRGT_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_SUB_YLW.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_SUB_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_NOISE_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_NOISE_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "j"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_EJECT_RED.png",
+   "x": 0.77,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_EJECT_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "y",
+     "modifier": "altleft"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Shubin/SHB_TRGT_CLR_YLW.png",
+   "x": 0.23,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_TRGT_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_SUB_CLR_YLW.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_SUB_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Shubin/SHB_DECOY_YLW.png",
+   "x": 0.41,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Shubin/SHB_DECOY_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "h"
+    }
+   ]
+  },
+  {
+   "img": "Sliders/slider_weapon.png",
+   "x": 0.5,
+   "y": 0.82,
+   "w": 0.55,
+   "h": 0.04,
+   "axis": "x"
+  }
+ ]
+}

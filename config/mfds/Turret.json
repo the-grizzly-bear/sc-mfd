@@ -1,0 +1,213 @@
+{
+ "name": "Turret",
+ "buttons": [
+  {
+   "img": "Turret/TRT_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Turret/TRT_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "FPS"
+  },
+  {
+   "img": "Turret/TRT_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Anvil"
+  },
+  {
+   "img": "Turret/TRT_FIRE_RED.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_FIRE_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "mouseleft"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_MISL_YLW.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_MISL_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "del"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_GMBL_ON.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_DECOY_YLW.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_DECOY_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "h"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_NOISE_YLW.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_NOISE_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "j"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Anvil"
+  },
+  {
+   "img": "Turret/TRT_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Turret/TRT_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Turret/TRT_TGT_NEXT_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "t"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_TGT_CLR_OFF.png",
+   "x": 0.3,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "t",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_MISL_ARM_YLW.png",
+   "x": 0.46,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_MISL_ARM_OFF.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "del"
+    }
+   ]
+  },
+  {
+   "img": "Turret/TRT_SCAN_OFF.png",
+   "x": 0.62,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_SCAN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "v"
+    }
+   ],
+   "toggle": "v"
+  },
+  {
+   "img": "Turret/TRT_SEAT_OFF.png",
+   "x": 0.78,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Turret/TRT_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "Anvil"
+  }
+ ]
+}

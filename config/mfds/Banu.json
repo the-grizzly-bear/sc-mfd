@@ -1,0 +1,926 @@
+{
+ "name": "Banu",
+ "buttons": [
+  {
+   "img": "Banu/BAN_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Banu/BAN_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Aopoa"
+  },
+  {
+   "img": "Banu/BAN_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Consolidated"
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.23,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.23,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f5"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.32,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f6"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_ENG_OFF.png",
+   "x": 0.32,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.32,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f6"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.41,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_SHD_OFF.png",
+   "x": 0.41,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_SHD_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ],
+   "toggle": "f7"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.41,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f7"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.5,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f8"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_QTM_OFF.png",
+   "x": 0.5,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.5,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f8"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.59,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_LIFE_OFF.png",
+   "x": 0.59,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_LIFE_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ],
+   "toggle": "shiftleft"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.59,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.68,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f9"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.68,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f9"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_UP.png",
+   "x": 0.77,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PWR_COOL_OFF.png",
+   "x": 0.77,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PWR_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Banu/BAN_DN.png",
+   "x": 0.77,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Banu/BAN_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f10"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.23,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f7",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.32,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f8",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.41,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f9",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.5,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f10",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.59,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f11",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.68,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f12",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_PRESET_DEFAULT.png",
+   "x": 0.77,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f13",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_ENG_OFF.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Banu/BAN_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Banu/BAN_SHLD_OFF.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_SHLD_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "o"
+    }
+   ],
+   "toggle": "o"
+  },
+  {
+   "img": "Banu/BAN_THR_OFF.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_THR_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "500"
+    },
+    {
+     "type": "up",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_VTOL_OFF.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_VTOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "k"
+    }
+   ],
+   "toggle": "k"
+  },
+  {
+   "img": "Banu/BAN_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Banu/BAN_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Banu/BAN_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Banu/BAN_ATC_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_ATC_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_GMBL_ON.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_GEAR_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_GEAR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ],
+   "toggle": "n"
+  },
+  {
+   "img": "Banu/BAN_LAMP_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_LAMP_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "l",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+l"
+  },
+  {
+   "img": "Banu/BAN_SEAT_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Banu/BAN_COOL_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Banu/BAN_QTM_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Banu/BAN_RADR_OFF.png",
+   "x": 0.77,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Banu/BAN_PING_OFF.png",
+   "x": 0.86,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_PING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "tab"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_TRGT_YLW.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_TRGT_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_SUB_YLW.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_SUB_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_NOISE_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_NOISE_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "j"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_EJECT_RED.png",
+   "x": 0.77,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_EJECT_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "y",
+     "modifier": "altleft"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Banu/BAN_TRGT_CLR_YLW.png",
+   "x": 0.23,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_TRGT_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_SUB_CLR_YLW.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_SUB_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Banu/BAN_DECOY_YLW.png",
+   "x": 0.41,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Banu/BAN_DECOY_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "h"
+    }
+   ]
+  },
+  {
+   "img": "Sliders/slider_weapon.png",
+   "x": 0.5,
+   "y": 0.82,
+   "w": 0.55,
+   "h": 0.04,
+   "axis": "x"
+  }
+ ]
+}

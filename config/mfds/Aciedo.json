@@ -1,0 +1,926 @@
+{
+ "name": "Aciedo",
+ "buttons": [
+  {
+   "img": "Aciedo/ACI_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Aciedo/ACI_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "RSI"
+  },
+  {
+   "img": "Aciedo/ACI_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Aopoa"
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.23,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.23,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f5"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.32,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f6"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_ENG_OFF.png",
+   "x": 0.32,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.32,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f6"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.41,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_SHD_OFF.png",
+   "x": 0.41,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_SHD_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ],
+   "toggle": "f7"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.41,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f7"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.5,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f8"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_QTM_OFF.png",
+   "x": 0.5,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.5,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f8"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.59,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_LIFE_OFF.png",
+   "x": 0.59,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_LIFE_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ],
+   "toggle": "shiftleft"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.59,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.68,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f9"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.68,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f9"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_UP.png",
+   "x": 0.77,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PWR_COOL_OFF.png",
+   "x": 0.77,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PWR_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Aciedo/ACI_DN.png",
+   "x": 0.77,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Aciedo/ACI_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f10"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.23,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f7",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.32,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f8",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.41,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f9",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.5,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f10",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.59,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f11",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.68,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f12",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_PRESET_DEFAULT.png",
+   "x": 0.77,
+   "y": 0.55,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PRESET_PRESSED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f13",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_ENG_OFF.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ],
+   "toggle": "i"
+  },
+  {
+   "img": "Aciedo/ACI_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_WPN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "p"
+    }
+   ],
+   "toggle": "p"
+  },
+  {
+   "img": "Aciedo/ACI_SHLD_OFF.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_SHLD_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "o"
+    }
+   ],
+   "toggle": "o"
+  },
+  {
+   "img": "Aciedo/ACI_THR_OFF.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_THR_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "500"
+    },
+    {
+     "type": "up",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_VTOL_OFF.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_VTOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "k"
+    }
+   ],
+   "toggle": "k"
+  },
+  {
+   "img": "Aciedo/ACI_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Aciedo/ACI_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Aciedo/ACI_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Aciedo/ACI_ATC_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_ATC_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_GMBL_ON.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_GEAR_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_GEAR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ],
+   "toggle": "n"
+  },
+  {
+   "img": "Aciedo/ACI_LAMP_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_LAMP_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "l",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+l"
+  },
+  {
+   "img": "Aciedo/ACI_SEAT_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Aciedo/ACI_COOL_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Aciedo/ACI_QTM_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Aciedo/ACI_RADR_OFF.png",
+   "x": 0.77,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Aciedo/ACI_PING_OFF.png",
+   "x": 0.86,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_PING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "tab"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_TRGT_YLW.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_TRGT_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_SUB_YLW.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_SUB_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_NOISE_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_NOISE_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "j"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_EJECT_RED.png",
+   "x": 0.77,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_EJECT_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "y",
+     "modifier": "altleft"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Aciedo/ACI_TRGT_CLR_YLW.png",
+   "x": 0.23,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_TRGT_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "t",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_SUB_CLR_YLW.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_SUB_CLR_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Aciedo/ACI_DECOY_YLW.png",
+   "x": 0.41,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Aciedo/ACI_DECOY_RED.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "h"
+    }
+   ]
+  },
+  {
+   "img": "Sliders/slider_weapon.png",
+   "x": 0.5,
+   "y": 0.82,
+   "w": 0.55,
+   "h": 0.04,
+   "axis": "x"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "Gatac": {
+  "caution": "#CCB533",
+  "dim": "#2A142E",
+  "primary": "#5E2368",
+  "critical": "#CC3B1E",
+  "nav": "#93BF42"
+ },
+ "Argo_Astronautics": {
+  "dim": "#5A2E19",
+  "caution": "#CCAC20",
+  "primary": "#C85520",
+  "critical": "#CC3B1E",
+  "nav": "#2DBFA3"
+ },
+ "MIRAI": {
+  "caution": "#EBD63A",
+  "dim": "#35556A",
+  "nav": "#D44A9F",
+  "primary": "#61B7EC",
+  "critical": "#EB4423"
+ },
+ "Greycat_ROC": {
+  "caution": "#EBFF2B",
+  "dim": "#725121",
+  "nav": "#39D6E5",
+  "primary": "#FFA72B",
+  "critical": "#FF3826"
+ },
+ "Origin_Jumpworks": {
+  "caution": "#C4F53D",
+  "primary": "#78D5F5",
+  "critical": "#F54724",
+  "dim": "#3E626E",
+  "nav": "#DC4DB7"
+ },
+ "Esperia": {
+  "caution": "#CC9233",
+  "dim": "#502620",
+  "primary": "#B24535",
+  "critical": "#CC2C1E",
+  "nav": "#4271BF"
+ },
+ "Greys_Market": {
+  "caution": "#A6CC1A",
+  "dim": "#295516",
+  "primary": "#4ABF1A",
+  "nav": "#4929BF",
+  "critical": "#CC401A"
+ },
+ "Aciedo": {
+  "primary": "#8888AA",
+  "nav": "#6688CC",
+  "critical": "#CC2233",
+  "dim": "#444455",
+  "caution": "#CCAA22"
+ },
+ "Crusader_Industries": {
+  "caution": "#D1D517",
+  "dim": "#17395F",
+  "primary": "#1772D5",
+  "critical": "#D51A17",
+  "nav": "#BF256F"
+ },
+ "Banu": {
+  "primary": "#43B6D8",
+  "caution": "#B1D836",
+  "dim": "#285461",
+  "nav": "#C243A4",
+  "critical": "#D83E20"
+ },
+ "RSI": {
+  "caution": "#CCC933",
+  "primary": "#8485C0",
+  "dim": "#3F3F56",
+  "critical": "#CC3B1E",
+  "nav": "#BF7F42"
+ },
+ "Drake_Cutlass": {
+  "caution": "#E0B520",
+  "dim": "#642F1B",
+  "primary": "#E05520",
+  "nav": "#2EC9A6",
+  "critical": "#E04020"
+ },
+ "MISC": {
+  "primary": "#124B6B",
+  "caution": "#CCB322",
+  "nav": "#BF2F8B",
+  "dim": "#0E2330",
+  "critical": "#CC3B1E"
+ },
+ "Aegis_Vanguard": {
+  "caution": "#D3E038",
+  "dim": "#445264",
+  "nav": "#C9467E",
+  "primary": "#8CB0E0",
+  "critical": "#E02F21"
+ },
+ "Consolidated_Outland": {
+  "primary": "#60C060",
+  "dim": "#315631",
+  "caution": "#CCCC33",
+  "nav": "#8042BF",
+  "critical": "#CC1E1E"
+ },
+ "FPS": {
+  "primary": "#AAAAAA",
+  "nav": "#AAAAAA",
+  "dim": "#555555",
+  "caution": "#CCAA22",
+  "critical": "#CC2233"
+ },
+ "Anvil Hornet": {
+  "primary": "#59DFBC",
+  "nav": "#C846A8",
+  "dim": "#316456",
+  "critical": "#DF4F21",
+  "caution": "#B6DF37"
+ },
+ "Aopoa": {
+  "primary": "#8EB82C",
+  "dim": "#42521D",
+  "caution": "#CCAB2F",
+  "critical": "#CC521E",
+  "nav": "#3C55BF"
+ },
+ "Turret": {
+  "caution": "#CCAA22",
+  "primary": "#8888AA",
+  "dim": "#444455",
+  "nav": "#6688CC",
+  "critical": "#CC2233"
+ },
+ "Tumbril_Cyclone": {
+  "caution": "#C2CC33",
+  "dim": "#2C401C",
+  "primary": "#5A9030",
+  "nav": "#4B42BF",
+  "critical": "#CC291E"
+ },
+ "Kruger": {
+  "caution": "#D7AF33",
+  "primary": "#D75D33",
+  "dim": "#603222",
+  "critical": "#D73E20",
+  "nav": "#3CC1A1"
+ },
+ "Shubin": {
+  "caution": "#CCAA22",
+  "dim": "#444455",
+  "primary": "#8888AA",
+  "nav": "#6688CC",
+  "critical": "#CC2233"
+ }
+}

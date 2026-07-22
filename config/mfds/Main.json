@@ -1,0 +1,149 @@
+{
+ "name": "Main",
+ "buttons": [
+  {
+   "img": "Logos/anvil_logo.png",
+   "x": 0.17,
+   "y": 0.08,
+   "w": 0.28,
+   "h": 0.13,
+   "nav": "Anvil"
+  },
+  {
+   "img": "Logos/mirai_logo.png",
+   "x": 0.5,
+   "y": 0.08,
+   "w": 0.22,
+   "h": 0.1,
+   "nav": "Mirai"
+  },
+  {
+   "img": "Logos/greycat_logo.png",
+   "x": 0.83,
+   "y": 0.08,
+   "w": 0.14,
+   "h": 0.12,
+   "nav": "Greycat"
+  },
+  {
+   "img": "Logos/aegis_logo.png",
+   "x": 0.17,
+   "y": 0.21,
+   "w": 0.16,
+   "h": 0.1,
+   "nav": "Aegis"
+  },
+  {
+   "img": "Logos/drake_logo.png",
+   "x": 0.5,
+   "y": 0.21,
+   "w": 0.24,
+   "h": 0.11,
+   "nav": "Drake"
+  },
+  {
+   "img": "Logos/tumbril_logo.png",
+   "x": 0.83,
+   "y": 0.21,
+   "w": 0.24,
+   "h": 0.09,
+   "nav": "Tumbril"
+  },
+  {
+   "img": "Logos/argo_logo.png",
+   "x": 0.17,
+   "y": 0.365,
+   "w": 0.2,
+   "h": 0.07,
+   "nav": "Argo"
+  },
+  {
+   "img": "Logos/crusader_logo.png",
+   "x": 0.5,
+   "y": 0.365,
+   "w": 0.1,
+   "h": 0.18,
+   "nav": "Crusader"
+  },
+  {
+   "img": "Logos/greys_logo.png",
+   "x": 0.83,
+   "y": 0.365,
+   "w": 0.14,
+   "h": 0.13,
+   "nav": "Greys"
+  },
+  {
+   "img": "Logos/misc_logo.png",
+   "x": 0.17,
+   "y": 0.515,
+   "w": 0.22,
+   "h": 0.1,
+   "nav": "MISC"
+  },
+  {
+   "img": "Logos/origin_logo.png",
+   "x": 0.5,
+   "y": 0.515,
+   "w": 0.22,
+   "h": 0.1,
+   "nav": "Origin"
+  },
+  {
+   "img": "Logos/rsi_logo.png",
+   "x": 0.83,
+   "y": 0.515,
+   "w": 0.2,
+   "h": 0.09,
+   "nav": "RSI"
+  },
+  {
+   "img": "Logos/aopoa_logo.png",
+   "x": 0.17,
+   "y": 0.635,
+   "w": 0.1,
+   "h": 0.1,
+   "nav": "Aopoa"
+  },
+  {
+   "img": "Logos/banu_logo.png",
+   "x": 0.5,
+   "y": 0.635,
+   "w": 0.14,
+   "h": 0.12,
+   "nav": "Banu"
+  },
+  {
+   "img": "Logos/consolidated_logo.png",
+   "x": 0.83,
+   "y": 0.635,
+   "w": 0.14,
+   "h": 0.1,
+   "nav": "Consolidated"
+  },
+  {
+   "img": "Logos/esperia_logo.png",
+   "x": 0.17,
+   "y": 0.795,
+   "w": 0.1,
+   "h": 0.18,
+   "nav": "Esperia"
+  },
+  {
+   "img": "Logos/gatac_logo.png",
+   "x": 0.5,
+   "y": 0.795,
+   "w": 0.16,
+   "h": 0.12,
+   "nav": "Gatac"
+  },
+  {
+   "img": "Logos/kruger_logo.png",
+   "x": 0.83,
+   "y": 0.795,
+   "w": 0.16,
+   "h": 0.12,
+   "nav": "Kruger"
+  }
+ ]
+}

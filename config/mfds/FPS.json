@@ -1,0 +1,410 @@
+{
+ "name": "FPS",
+ "buttons": [
+  {
+   "img": "FPS/FPS_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "FPS/FPS_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Shubin"
+  },
+  {
+   "img": "FPS/FPS_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Turret"
+  },
+  {
+   "img": "FPS/FPS_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "FPS/FPS_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "FPS/FPS_SPRINT_OFF.png",
+   "x": 0.14,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_SPRINT_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_CROUCH_OFF.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_CROUCH_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_PRONE_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_PRONE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "x"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WALK_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WALK_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "capslock"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_INTERACT_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_INTERACT_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_HOLSTER_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_HOLSTER_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_HELMET_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_HELMET_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_RELOAD_RED.png",
+   "x": 0.14,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_RELOAD_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_MEDPEN_RED.png",
+   "x": 0.23,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_MEDPEN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_MEDGUN_RED.png",
+   "x": 0.32,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_MEDGUN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WPN_1_YLW.png",
+   "x": 0.41,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WPN_1_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WPN_2_YLW.png",
+   "x": 0.5,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WPN_2_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WPN_3_YLW.png",
+   "x": 0.59,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WPN_3_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_KNIFE_YLW.png",
+   "x": 0.68,
+   "y": 0.25,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_KNIFE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_MELEE_YLW.png",
+   "x": 0.14,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_MELEE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "v"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_GRENADE_RED.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_GRENADE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_EMOTE_OFF.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_EMOTE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WPN_4_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WPN_4_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WPN_5_YLW.png",
+   "x": 0.5,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WPN_5_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_FISTS_OFF.png",
+   "x": 0.59,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_FISTS_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_TOOL_ON.png",
+   "x": 0.68,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_TOOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "v"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_MAP_OFF.png",
+   "x": 0.14,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_MAP_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "m"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_INVENT_OFF.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_INVENT_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_F_MODE_OFF.png",
+   "x": 0.5,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_F_MODE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "FPS/FPS_WIPE_OFF.png",
+   "x": 0.68,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "FPS/FPS_WIPE_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "backspace"
+    }
+   ]
+  }
+ ]
+}

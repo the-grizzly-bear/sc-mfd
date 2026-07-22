@@ -1,0 +1,836 @@
+{
+ "name": "Greycat",
+ "buttons": [
+  {
+   "img": "Greycat_ROC/GRC_BANNER.png",
+   "x": 0.5,
+   "y": 0.95,
+   "w": 0.62,
+   "h": 0.08
+  },
+  {
+   "img": "Greycat_ROC/GRC_NAV_L.png",
+   "x": 0.14,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Drake"
+  },
+  {
+   "img": "Greycat_ROC/GRC_NAV_R.png",
+   "x": 0.86,
+   "y": 0.95,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Tumbril"
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.23,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_WPN_OFF.png",
+   "x": 0.23,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_WPN_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f5"
+    }
+   ],
+   "toggle": "f5"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.23,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f5"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.32,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f6"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_ENG_OFF.png",
+   "x": 0.32,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+i"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.32,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f6"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.41,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_SHD_OFF.png",
+   "x": 0.41,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_SHD_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f7"
+    }
+   ],
+   "toggle": "f7"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.41,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f7"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.5,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f8"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_QTM_OFF.png",
+   "x": 0.5,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.5,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f8"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.59,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_LIFE_OFF.png",
+   "x": 0.59,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_LIFE_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "shiftleft"
+    }
+   ],
+   "toggle": "shiftleft"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.59,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "shiftleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.68,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f9"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.68,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f9"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_UP.png",
+   "x": 0.77,
+   "y": 0.62,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_UP_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_PWR_COOL_OFF.png",
+   "x": 0.77,
+   "y": 0.69,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PWR_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Greycat_ROC/GRC_DN.png",
+   "x": 0.77,
+   "y": 0.76,
+   "w": 0.08,
+   "h": 0.04,
+   "down": "Greycat_ROC/GRC_DN_PRESS.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "press",
+     "value": "f10"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_ENG_OFF.png",
+   "x": 0.14,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_ENG_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "i",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+i"
+  },
+  {
+   "img": "Greycat_ROC/GRC_MINING_OFF.png",
+   "x": 0.23,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_MINING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "m",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+m"
+  },
+  {
+   "img": "Greycat_ROC/GRC_LIGHTS_OFF.png",
+   "x": 0.32,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_LIGHTS_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "l"
+    }
+   ],
+   "toggle": "l"
+  },
+  {
+   "img": "Greycat_ROC/GRC_SCAN_OFF.png",
+   "x": 0.41,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_SCAN_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "v"
+    }
+   ],
+   "toggle": "v"
+  },
+  {
+   "img": "Greycat_ROC/GRC_GEAR_OFF.png",
+   "x": 0.5,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_GEAR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "n"
+    }
+   ],
+   "toggle": "n"
+  },
+  {
+   "img": "Greycat_ROC/GRC_MOBI_ON.png",
+   "x": 0.59,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "f2"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_CMBT_ON.png",
+   "x": 0.68,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "press": [
+    {
+     "type": "press",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Greycat_ROC/GRC_BACK_ON.png",
+   "x": 0.77,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Previous"
+  },
+  {
+   "img": "Greycat_ROC/GRC_HOME_ON.png",
+   "x": 0.86,
+   "y": 0.05,
+   "w": 0.08,
+   "h": 0.08,
+   "nav": "Main"
+  },
+  {
+   "img": "Greycat_ROC/GRC_FUEL_OFF.png",
+   "x": 0.23,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_FUEL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f10"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_CARGO_OFF.png",
+   "x": 0.32,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_CARGO_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f11"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_SEAT_OFF.png",
+   "x": 0.41,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_SEAT_ON.png",
+   "press": [
+    {
+     "type": "down",
+     "value": "y"
+    },
+    {
+     "type": "delay",
+     "value": 1000
+    },
+    {
+     "type": "up",
+     "value": "y"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Greycat_ROC/GRC_COOL_OFF.png",
+   "x": 0.5,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_COOL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "c",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+c"
+  },
+  {
+   "img": "Greycat_ROC/GRC_QTM_OFF.png",
+   "x": 0.59,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_QTM_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "b"
+    }
+   ],
+   "toggle": "b"
+  },
+  {
+   "img": "Greycat_ROC/GRC_RADR_OFF.png",
+   "x": 0.68,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_RADR_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "r",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+r"
+  },
+  {
+   "img": "Greycat_ROC/GRC_PING_OFF.png",
+   "x": 0.77,
+   "y": 0.15,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_PING_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "tab"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_LAZER_RED.png",
+   "x": 0.23,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_LAZER_RED_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "mouseleft"
+    }
+   ],
+   "toggle": "mouseleft"
+  },
+  {
+   "img": "Greycat_ROC/GRC_MOD_1_YLW.png",
+   "x": 0.32,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_MOD_1_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "1",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_MOD_2_YLW.png",
+   "x": 0.41,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_MOD_2_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "2",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_MOD_3_YLW.png",
+   "x": 0.5,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_MOD_3_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "3",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_FAST_YLW.png",
+   "x": 0.32,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_FAST_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "6",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_EJECT_RED.png",
+   "x": 0.68,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_EJECT_YLW.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "y",
+     "modifier": "altleft"
+    }
+   ],
+   "nav": "FPS"
+  },
+  {
+   "img": "Greycat_ROC/GRC_FRACTURE_RED.png",
+   "x": 0.23,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_FRACTURE_RED_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "f",
+     "modifier": "altleft"
+    }
+   ],
+   "toggle": "altleft+f"
+  },
+  {
+   "img": "Greycat_ROC/GRC_GIMBAL_OFF.png",
+   "x": 0.59,
+   "y": 0.35,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_GIMBAL_ON.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "g"
+    }
+   ],
+   "toggle": "g"
+  },
+  {
+   "img": "Greycat_ROC/GRC_SLOW_YLW.png",
+   "x": 0.41,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_SLOW_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "4",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Greycat_ROC/GRC_MID_YLW.png",
+   "x": 0.5,
+   "y": 0.45,
+   "w": 0.08,
+   "h": 0.08,
+   "down": "Greycat_ROC/GRC_MID_YLW_ACT.png",
+   "press": [
+    {
+     "type": "press",
+     "value": "5",
+     "modifier": "altleft"
+    }
+   ]
+  },
+  {
+   "img": "Sliders/slider_weapon.png",
+   "x": 0.5,
+   "y": 0.82,
+   "w": 0.55,
+   "h": 0.04,
+   "axis": "x"
+  }
+ ]
+}
