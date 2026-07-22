@@ -6,7 +6,7 @@ from urllib.parse import quote
 
 from .model import Panel, Button
 
-_VERSION = "6"
+_VERSION = "7"
 
 
 def _file(name: str) -> str:
@@ -103,14 +103,15 @@ function bind(){ document.querySelectorAll('.btn').forEach(function(b){ if(b._b)
   var nav=b.getAttribute('data-nav'), rel=b.getAttribute('data-release'),
       up=b.getAttribute('data-up'), down=b.getAttribute('data-down'), tg=b.getAttribute('data-toggle');
   var pc=b.getAttribute('data-press'); pc=pc?JSON.parse(pc):null;
-  b.addEventListener('pointerdown',function(e){ e.preventDefault(); if(navigator.vibrate)navigator.vibrate(30);
+  b.addEventListener('pointerdown',function(e){ e.preventDefault(); try{b.setPointerCapture(e.pointerId);}catch(_){}
+    if(navigator.vibrate)navigator.vibrate(30);
     if(pc){ inj(pc); held(pc).forEach(function(k){HELD[k]=(HELD[k]||0)+1;}); }
     if(tg){ T[tg]=!T[tg]; setGroup(tg); } else if(down) b.src=down; });
   var release=function(){ if(rel)inj(JSON.parse(rel));
     if(pc){ var h=held(pc); h.forEach(function(k){HELD[k]=(HELD[k]||0)-1;});
       if(h.length)inj(h.map(function(k){return{type:'up',value:k};})); }
     if(!tg&&up)b.src=up; };
-  ['pointerup','pointerleave','pointercancel'].forEach(function(ev){ b.addEventListener(ev,release); });
+  ['pointerup','pointercancel'].forEach(function(ev){ b.addEventListener(ev,release); });
   if(nav) b.addEventListener('click',function(){ var go=function(){ nav==='__prev__'?back():load(nav,true); };
     (pc||rel)?setTimeout(go,150):go(); }); });
   Object.keys(T).forEach(setGroup);
