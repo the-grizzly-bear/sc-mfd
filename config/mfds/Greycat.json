@@ -47,8 +47,8 @@
    "down": "Greycat_ROC/GRC_PWR_WPN_ON.png",
    "press": [
     {
-     "type": "down",
-     "value": "f5"
+     "type": "press",
+     "value": "p"
     }
    ],
    "toggle": "f5"
@@ -107,8 +107,7 @@
    "press": [
     {
      "type": "press",
-     "value": "i",
-     "modifier": "altleft"
+     "value": "i"
     }
    ],
    "toggle": "altleft+i"
@@ -450,8 +449,7 @@
    "press": [
     {
      "type": "press",
-     "value": "i",
-     "modifier": "altleft"
+     "value": "i"
     }
    ],
    "toggle": "altleft+i"
@@ -772,9 +770,24 @@
    "down": "Greycat_ROC/GRC_FRACTURE_RED_ON.png",
    "press": [
     {
+     "type": "down",
+     "value": "altleft"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
      "type": "press",
-     "value": "f",
-     "modifier": "altleft"
+     "value": "w"
+    },
+    {
+     "type": "delay",
+     "value": "50"
+    },
+    {
+     "type": "up",
+     "value": "altleft"
     }
    ],
    "toggle": "altleft+f"
