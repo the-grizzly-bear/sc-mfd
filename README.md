@@ -33,6 +33,11 @@ LUG-helper's `sc-launch.sh`):
 
 ## Commands
 
-    scmfd art     # regenerate button art from config/palettes.json
-    scmfd build   # config/mfds/*.json -> webroot/
-    scmfd serve   # build, serve, inject
+    ./start.sh               # runs serve in the background (what the SC hook calls)
+
+    python3 -m scmfd serve   # build art + panels, serve, inject — the only one you need
+    python3 -m scmfd build   # regenerate webroot/ only
+    python3 -m scmfd art     # regenerate button art only
+
+`serve` runs `build` and `art` for you. After `pip install .`, use `scmfd …`
+instead of `python3 -m scmfd …`.
