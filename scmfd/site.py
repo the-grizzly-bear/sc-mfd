@@ -6,7 +6,7 @@ from urllib.parse import quote
 
 from .model import Panel, Button
 
-_VERSION = "7"
+_VERSION = "8"
 
 
 def _file(name: str) -> str:
