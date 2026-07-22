@@ -1,53 +1,38 @@
 # scmfd
 
-Touchscreen MFD for Star Citizen. Panels are JSON; a tablet browser drives the
-game over a uinput virtual keyboard, which reaches it under Wayland where
-synthetic X11 input does not. Button art is generated from per-manufacturer
-palettes.
-
-    scmfd art            # config/palettes.json + assets/ -> assets/img/
-    scmfd build          # config/mfds/*.json + art -> webroot/
-    scmfd serve [--port] # build, then serve and inject
-
-`serve` needs `/dev/uinput` writable. For `:80` as a normal user, set
-`net.ipv4.ip_unprivileged_port_start=80`, otherwise `--port 8080`.
-
-## Screenshots
+Touchscreen MFD for Star Citizen. A tablet browser drives the game over a uinput
+virtual keyboard, which reaches it under Wayland where synthetic X11 input does
+not. Panels are JSON; button art is generated from per-manufacturer palettes.
 
 ![Main panel](docs/main-panel.jpg)
 
 ![Anvil panel](docs/anvil-panel.jpg)
 
-## Panels
+## Setup
 
-`config/mfds/<name>.json` — buttons over a 16:9 stage; coordinates are fractions
-from the top-left.
+    git clone https://github.com/the-grizzly-bear/sc-mfd && cd sc-mfd
+    pip install .                 # or: pip install evdev pillow
+    python3 -m scmfd serve        # builds art + panels, serves, injects
 
-```json
-{
-  "name": "Anvil",
-  "buttons": [
-    { "img": "Anvil Hornet/ANV_GEAR_OFF.png", "x": 0.14, "y": 0.85, "w": 0.13, "h": 0.09,
-      "down": "Anvil Hornet/ANV_GEAR_ON.png", "toggle": "n",
-      "press": [{ "type": "press", "value": "n" }] },
-    { "img": "Anvil Hornet/ANV_NAV_R.png", "x": 0.86, "y": 0.95, "w": 0.1, "h": 0.08,
-      "nav": "Aegis" }
-  ]
-}
-```
+- `/dev/uinput` must be writable — be in the `input` group, or add an ACL.
+- Binding `:80` as a normal user needs
+  `sudo sysctl net.ipv4.ip_unprivileged_port_start=80` (persist in
+  `/etc/sysctl.d/`); otherwise `serve --port 8080`.
 
-A button injects keys, navigates (`nav`, or `"Previous"`), or both.
+On the tablet, open `http://<host>.local` (or the PC's IP) and add it to the home
+screen for fullscreen.
 
-- **`press`** — commands run on touch; `release` runs on lift. A command is
-  `{"type": "down"|"up"|"press"|"delay", "value": "<key|ms>", "modifier"?: "<key>"}`.
-  Keys left held by `down` are auto-released on lift. Key names: `scmfd/keymap.py`.
-- **`down`** — image shown while pressed / toggled on.
-- **`toggle`** — a group id; tapping flips a persistent on/off state shared by
-  every button with the same id, so linked buttons light together.
+## Autostart with the game
 
-## Art
+To bring it up when Star Citizen launches, add to your launch script (e.g.
+LUG-helper's `sc-launch.sh`):
 
-Buttons are generated, not stored. `scmfd art` recolors grayscale shape stencils
-(`assets/stencils/`) with a per-manufacturer palette (`config/palettes.json`) into
-`assets/img/`. Art that can't be recolored from a shape — logos, banners, sliders —
-lives in `assets/fixed/`.
+    if ! ss -tlnp 2>/dev/null | grep -qE ':80 |:8080 '; then
+        "$HOME/sc-mfd/start.sh" >/dev/null 2>&1 &
+    fi
+
+## Commands
+
+    scmfd art     # regenerate button art from config/palettes.json
+    scmfd build   # config/mfds/*.json -> webroot/
+    scmfd serve   # build, serve, inject
