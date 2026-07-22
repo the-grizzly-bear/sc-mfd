@@ -685,7 +685,7 @@
    ]
   },
   {
-   "img": "Gatac/GAT_GMBL_ON.png",
+   "img": "Gatac/GAT_GMBL_OFF.png",
    "x": 0.23,
    "y": 0.15,
    "w": 0.08,
@@ -695,7 +695,9 @@
      "type": "press",
      "value": "g"
     }
-   ]
+   ],
+   "down": "Gatac/GAT_GMBL_ON.png",
+   "toggle": "g"
   },
   {
    "img": "Gatac/GAT_GEAR_OFF.png",

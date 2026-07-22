@@ -53,7 +53,7 @@
    ]
   },
   {
-   "img": "Turret/TRT_GMBL_ON.png",
+   "img": "Turret/TRT_GMBL_OFF.png",
    "x": 0.32,
    "y": 0.05,
    "w": 0.08,
@@ -63,7 +63,9 @@
      "type": "press",
      "value": "g"
     }
-   ]
+   ],
+   "down": "Turret/TRT_GMBL_ON.png",
+   "toggle": "g"
   },
   {
    "img": "Turret/TRT_DECOY_YLW.png",

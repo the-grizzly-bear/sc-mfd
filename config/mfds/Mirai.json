@@ -699,7 +699,7 @@
    ]
   },
   {
-   "img": "MIRAI/MIR_GMBL_ON.png",
+   "img": "MIRAI/MIR_GMBL_OFF.png",
    "x": 0.23,
    "y": 0.15,
    "w": 0.08,
@@ -709,7 +709,9 @@
      "type": "press",
      "value": "g"
     }
-   ]
+   ],
+   "down": "MIRAI/MIR_GMBL_ON.png",
+   "toggle": "g"
   },
   {
    "img": "MIRAI/MIR_GEAR_OFF.png",

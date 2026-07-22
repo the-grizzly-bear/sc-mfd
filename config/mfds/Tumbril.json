@@ -683,7 +683,7 @@
    ]
   },
   {
-   "img": "Tumbril_Cyclone/TMB_GMBL_ON.png",
+   "img": "Tumbril_Cyclone/TMB_GMBL_OFF.png",
    "x": 0.23,
    "y": 0.15,
    "w": 0.08,
@@ -693,7 +693,9 @@
      "type": "press",
      "value": "g"
     }
-   ]
+   ],
+   "down": "Tumbril_Cyclone/TMB_GMBL_ON.png",
+   "toggle": "g"
   },
   {
    "img": "Tumbril_Cyclone/TMB_TURRET_OFF.png",
