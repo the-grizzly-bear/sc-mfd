@@ -266,12 +266,11 @@
    ]
   },
   {
-   "img": "FPS/FPS_GRENADE_RED.png",
+   "img": "FPS/FPS_GRENADE_YLW.png",
    "x": 0.23,
    "y": 0.35,
    "w": 0.08,
    "h": 0.08,
-   "down": "FPS/FPS_GRENADE_ON.png",
    "press": [
     {
      "type": "press",
